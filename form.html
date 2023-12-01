@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div {
+            text-align: center;
+            border: 1px solid tomato;
+            width: 500px;
+            height: 400px;
+            padding: 70px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        button {
+            background-color: tomato;
+            padding: 10px;
+            border-radius: 10px;
+            width: 200px;
+            margin-left: 20px;
+        }
+
+        .a {
+            margin-left: 10px;
+        }
+
+        .b {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+
+        #c {
+            margin-top: 10px;
+        }
+
+        .btnn:hover {
+            background-color: white;
+            transition: all 1s;
+        }
+        .home:hover{
+       color: tomato;
+       transition: all 0.7s;
+
+        }
+        .d{
+            width: 200px;
+            height: 30px;
+            border-radius: 15px;
+            border: 1px solid black;
+        }
+   
+    </style>
+</head>
+
+<body>
+    <h1 class="home">Login Page
+    </h1>
+    <div class="b">
+        <div class="div">
+            <form action="">
+                <h1>Login</h1><br>
+                <label for="name">UserName</label>
+                <input type="text" id="name" class="d">
+                <br><br>
+                <label for="bassword">Password</label>
+                <input type="password" class="a d"><br><br><br>
+                <a href="p2.html"><button class="btnn">Login</button></a>
+            </form>
+            <div class="btn">
+                <a href="#" id="c">forget password</a>
+                <a href="p2.html" class="btnn"><button class="btnn">home page</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
